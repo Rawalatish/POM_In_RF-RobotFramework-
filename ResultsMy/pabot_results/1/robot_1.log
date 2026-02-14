@@ -1,0 +1,132 @@
+2026-02-13 22:20:33.884609 ==============================================================================
+2026-02-13 22:20:33.899291 Suites
+2026-02-13 22:20:33.899377 ==============================================================================
+2026-02-13 22:20:33.899429 Suites.Register Page Test.Robot
+2026-02-13 22:20:33.899429 [ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Register_Page_Test.Robot.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+2026-02-13 22:20:33.931691 ==============================================================================
+2026-02-13 22:20:33.931691 Traceback (most recent call last):
+2026-02-13 22:20:33.931799 TC1 Registration Test with hardcore value                             | FAIL |
+2026-02-13 22:20:33.931799   None
+2026-02-13 22:20:33.937989 Several failures occurred:
+2026-02-13 22:20:33.937989 PYTHONPATH:
+2026-02-13 22:20:33.938058 
+2026-02-13 22:20:33.938058   C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+2026-02-13 22:20:33.938143 1) Keyword 'Register and Verify Error' expected 5 arguments, got 4.
+2026-02-13 22:20:33.938143   C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+2026-02-13 22:20:33.938223 
+2026-02-13 22:20:33.938223   C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+2026-02-13 22:20:33.938304 2) Keyword 'Register and Verify Error' expected 5 arguments, got 3.
+2026-02-13 22:20:33.938304   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+2026-02-13 22:20:33.938384 
+2026-02-13 22:20:33.938384   C:\Users\HP\AppData\Local\Programs\Python\Python313
+2026-02-13 22:20:33.938752 3) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.938752   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages
+2026-02-13 22:20:33.939015 
+2026-02-13 22:20:33.939015 [ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\RegisterKeywordsRes.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+2026-02-13 22:20:33.939062 4) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.939062 Traceback (most recent call last):
+2026-02-13 22:20:33.939105 
+2026-02-13 22:20:33.939105   None
+2026-02-13 22:20:33.939148 5) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.939148 PYTHONPATH:
+2026-02-13 22:20:33.939191 
+2026-02-13 22:20:33.939191   C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+2026-02-13 22:20:33.939233 6) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.939233   C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+2026-02-13 22:20:33.939274 
+2026-02-13 22:20:33.939274   C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+2026-02-13 22:20:33.939314 7) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.939314   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+2026-02-13 22:20:33.939355 
+2026-02-13 22:20:33.939355   C:\Users\HP\AppData\Local\Programs\Python\Python313
+2026-02-13 22:20:33.939397 8) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.939397   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages
+2026-02-13 22:20:33.939437 
+2026-02-13 22:20:33.939437 [ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\RegisterKeywordsRes.robot' on line 6: Importing library 'FakerLibrary' failed: ModuleNotFoundError: No module named 'FakerLibrary'
+2026-02-13 22:20:33.939479 9) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+2026-02-13 22:20:33.939479 Traceback (most recent call last):
+2026-02-13 22:20:33.939520 
+2026-02-13 22:20:33.939520   None
+2026-02-13 22:20:33.939561 10) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.939561 PYTHONPATH:
+2026-02-13 22:20:33.939604 
+2026-02-13 22:20:33.939604   C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+2026-02-13 22:20:33.939645 11) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+2026-02-13 22:20:33.939645   C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+2026-02-13 22:20:33.939688 
+2026-02-13 22:20:33.939688   C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+2026-02-13 22:20:33.939729 12) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+2026-02-13 22:20:33.939729   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+2026-02-13 22:20:33.939770 
+2026-02-13 22:20:33.939770   C:\Users\HP\AppData\Local\Programs\Python\Python313
+2026-02-13 22:20:33.939810 13) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.939810   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages
+2026-02-13 22:20:33.939851 
+2026-02-13 22:20:33.939884 14) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+2026-02-13 22:20:33.939914 ------------------------------------------------------------------------------
+2026-02-13 22:20:33.939941 TC2 Registration Test with Faker lab                                  | FAIL |
+2026-02-13 22:20:33.946278 Several failures occurred:
+2026-02-13 22:20:33.946343 
+2026-02-13 22:20:33.946394 1) Keyword 'Register and Verify Error' expected 5 arguments, got 3.
+2026-02-13 22:20:33.946447 
+2026-02-13 22:20:33.946497 2) Variable '${RAND_FNAME}' not found.
+2026-02-13 22:20:33.946550 
+2026-02-13 22:20:33.946601 3) Variable '${RAND_LNAME}' not found.
+2026-02-13 22:20:33.946652 
+2026-02-13 22:20:33.946702 4) Variable '${RAND_EMAIL}' not found.
+2026-02-13 22:20:33.946753 
+2026-02-13 22:20:33.946808 5) Variable '${RAND_PHONE}' not found.
+2026-02-13 22:20:33.946859 
+2026-02-13 22:20:33.946909 6) Variable '${RAND_FNAME}' not found.
+2026-02-13 22:20:33.946961 
+2026-02-13 22:20:33.947012 7) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+2026-02-13 22:20:33.947065 
+2026-02-13 22:20:33.947116 8) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+2026-02-13 22:20:33.947172 
+2026-02-13 22:20:33.947223 9) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+2026-02-13 22:20:33.947276 
+2026-02-13 22:20:33.947327 10) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+2026-02-13 22:20:33.947382 
+2026-02-13 22:20:33.947438 Also teardown failed:
+2026-02-13 22:20:33.947492 No keyword with name 'Close All Browsers' found. Did you mean:
+2026-02-13 22:20:33.947547     RegisterKeywordsRes.Close All My Browser
+2026-02-13 22:20:33.947602 ------------------------------------------------------------------------------
+2026-02-13 22:20:33.947659 TC3 Empty Firstname Registration                                      | FAIL |
+2026-02-13 22:20:33.951018 No keyword with name 'Open Browser' found. Did you mean:
+2026-02-13 22:20:33.951053     RegisterKeywordsRes.Open My Browser
+2026-02-13 22:20:33.951066 
+2026-02-13 22:20:33.951079 Also keyword teardown failed:
+2026-02-13 22:20:33.951092 No keyword with name 'Close All Browsers' found. Did you mean:
+2026-02-13 22:20:33.951122     RegisterKeywordsRes.Close All My Browser
+2026-02-13 22:20:33.951134 ------------------------------------------------------------------------------
+2026-02-13 22:20:33.951147 TC4 Empty Lastname Registration                                       | FAIL |
+2026-02-13 22:20:33.958880 No keyword with name 'Open Browser' found. Did you mean:
+2026-02-13 22:20:33.958924     RegisterKeywordsRes.Open My Browser
+2026-02-13 22:20:33.958970 
+2026-02-13 22:20:33.959006 Also keyword teardown failed:
+2026-02-13 22:20:33.959035 No keyword with name 'Close All Browsers' found. Did you mean:
+2026-02-13 22:20:33.959062     RegisterKeywordsRes.Close All My Browser
+2026-02-13 22:20:33.959088 ------------------------------------------------------------------------------
+2026-02-13 22:20:33.959119 TC5 Invalid Email Registration                                        | FAIL |
+2026-02-13 22:20:33.970383 No keyword with name 'Open Browser' found. Did you mean:
+2026-02-13 22:20:33.970430     RegisterKeywordsRes.Open My Browser
+2026-02-13 22:20:33.970453 
+2026-02-13 22:20:33.970471 Also keyword teardown failed:
+2026-02-13 22:20:33.970486 No keyword with name 'Close All Browsers' found. Did you mean:
+2026-02-13 22:20:33.970503     RegisterKeywordsRes.Close All My Browser
+2026-02-13 22:20:33.970518 ------------------------------------------------------------------------------
+2026-02-13 22:20:33.970535 TC 6Empty Telephone Registration                                      | FAIL |
+2026-02-13 22:20:33.975768 No keyword with name 'Open Browser' found. Did you mean:
+2026-02-13 22:20:33.975808     RegisterKeywordsRes.Open My Browser
+2026-02-13 22:20:33.975835 
+2026-02-13 22:20:33.975863 Also keyword teardown failed:
+2026-02-13 22:20:33.975889 No keyword with name 'Close All Browsers' found. Did you mean:
+2026-02-13 22:20:33.975920     RegisterKeywordsRes.Close All My Browser
+2026-02-13 22:20:33.976319 ------------------------------------------------------------------------------
+2026-02-13 22:20:33.976410 Suites.Register Page Test.Robot                                       | FAIL |
+2026-02-13 22:20:33.976846 6 tests, 0 passed, 6 failed
+2026-02-13 22:20:33.976924 ==============================================================================
+2026-02-13 22:20:33.977098 Suites                                                                | FAIL |
+2026-02-13 22:20:33.977141 6 tests, 0 passed, 6 failed
+2026-02-13 22:20:33.977169 ==============================================================================
+2026-02-13 22:20:33.977195 Output:  C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\ResultsMy\pabot_results\1\output.xml

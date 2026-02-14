@@ -1,0 +1,16 @@
+--test Login test.Login test with Try and Except block
+--variable CALLER_ID:2db5f1b130e64df4b1bb5f85f5742fbe
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:1
+--variable PABOTLASTLEVEL:
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\1
+--consolecolors off
+--consolemarkers off
+TestCases/Login_test.robot

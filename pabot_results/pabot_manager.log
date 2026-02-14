@@ -1,0 +1,20 @@
+[INFO]    Initialized logging in .\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   2026-02-14 13:15:34.214788 [PID:19176] [1] [ID:1] EXECUTING Login test.Login test with Try and Except block
+[DEBUG]   2026-02-14 13:15:34.236932 [PID:15268] [0] [ID:0] EXECUTING Login test.Login test
+[DEBUG]   2026-02-14 13:15:39.286974 [PID:15268] [0] [ID:0] still running Login test.Login test after 5.0s
+[DEBUG]   2026-02-14 13:15:39.287558 [PID:19176] [1] [ID:1] still running Login test.Login test with Try and Except block after 5.0s
+[INFO]    2026-02-14 13:15:48.348910 [PID:15268] [0] [ID:0] PASSED Login test.Login test in 15.5 seconds
+[INFO]    2026-02-14 13:15:48.537972 [PID:19176] [1] [ID:1] PASSED Login test.Login test with Try and Except block in 15.7 seconds
+[INFO]    2 tests, 2 passed, 0 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\output.xml
+[INFO]    Log:     C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\log.html
+[INFO]    Report:  C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\report.html
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 31.20 seconds
+[INFO]    Elapsed time:  16.59 seconds
+[DEBUG]   Logs flushed successfully.

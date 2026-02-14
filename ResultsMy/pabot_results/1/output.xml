@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-13T22:20:33.856044" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Register Page Test.Robot" source="C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Register_Page_Test.Robot.robot">
+<test id="s1-s1-t1" name="TC1 Registration Test with hardcore value" line="15">
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.932562" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 4.</msg>
+<arg>${random_str}=</arg>
+<arg>Generate Random String</arg>
+<arg>4</arg>
+<arg>[NUMBERS]</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.932169" elapsed="0.000489">Keyword 'Register and Verify Error' expected 5 arguments, got 4.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.933161" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 3.</msg>
+<arg>Open My Browser</arg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.932955" elapsed="0.000254">Keyword 'Register and Verify Error' expected 5 arguments, got 3.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.933484" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Enter Firstname</arg>
+<arg>Hardik</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.933393" elapsed="0.000126">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.933761" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Enter Lastname</arg>
+<arg>pandya</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.933679" elapsed="0.000116">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.934082" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Enter Email</arg>
+<arg>hardik_${random_str}@gmail.com</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.933954" elapsed="0.000162">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.934348" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Enter Password</arg>
+<arg>ICCT20wc</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.934269" elapsed="0.000116">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.934821" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Enter Confirm Password</arg>
+<arg>ICCT20wc</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.934555" elapsed="0.000331">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.935461" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Enter Telephone</arg>
+<arg>9876543210</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.935316" elapsed="0.000186">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.935728" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</msg>
+<arg>Click Policy Agree Checkbox</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.935655" elapsed="0.000100">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.935939" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Sleep</arg>
+<arg>3s</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.935867" elapsed="0.000102">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.936717" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</msg>
+<arg>Click Continue button</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.936071" elapsed="0.000678">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.936968" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</msg>
+<arg>Verify Successful registration</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.936893" elapsed="0.000102">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.937151" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Sleep</arg>
+<arg>5s</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.937095" elapsed="0.000079">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.937326" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</msg>
+<arg>Close All My Browser</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.937274" elapsed="0.000079">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.931208" elapsed="0.006332">Several failures occurred:
+
+1) Keyword 'Register and Verify Error' expected 5 arguments, got 4.
+
+2) Keyword 'Register and Verify Error' expected 5 arguments, got 3.
+
+3) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+4) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+5) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+6) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+7) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+8) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+9) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+
+10) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+11) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+
+12) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+
+13) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+14) Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</test>
+<test id="s1-s1-t2" name="TC2 Registration Test with Faker lab" line="33">
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.938319" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 3.</msg>
+<arg>Open My Browser</arg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.938162" elapsed="0.000208">Keyword 'Register and Verify Error' expected 5 arguments, got 3.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.939655" level="FAIL">Variable '${RAND_FNAME}' not found.</msg>
+<arg>${RAND_FNAME}=</arg>
+<arg>FakerLibrary.First Name</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.938540" elapsed="0.001147">Variable '${RAND_FNAME}' not found.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.940681" level="FAIL">Variable '${RAND_LNAME}' not found.</msg>
+<arg>${RAND_LNAME}=</arg>
+<arg>FakerLibrary.Last Name</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.939807" elapsed="0.000902">Variable '${RAND_LNAME}' not found.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.941693" level="FAIL">Variable '${RAND_EMAIL}' not found.</msg>
+<arg>${RAND_EMAIL}=</arg>
+<arg>FakerLibrary.Email</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.940824" elapsed="0.000898">Variable '${RAND_EMAIL}' not found.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.943005" level="FAIL">Variable '${RAND_PHONE}' not found.</msg>
+<arg>${RAND_PHONE}=</arg>
+<arg>FakerLibrary.Phone Number</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.941833" elapsed="0.001209">Variable '${RAND_PHONE}' not found.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.943640" level="FAIL">Variable '${RAND_FNAME}' not found.</msg>
+<arg>Fill Registration Form</arg>
+<arg>${RAND_FNAME}</arg>
+<arg>${RAND_LNAME}</arg>
+<arg>${RAND_EMAIL}</arg>
+<arg>${RAND_PHONE}</arg>
+<arg>Test@1234</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.943179" elapsed="0.000484">Variable '${RAND_FNAME}' not found.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.943824" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</msg>
+<arg>Click Policy Agree Checkbox</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.943768" elapsed="0.000077">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.943991" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</msg>
+<arg>Sleep</arg>
+<arg>5s</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.943939" elapsed="0.000075">Keyword 'Register and Verify Error' expected 5 arguments, got 2.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.944154" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</msg>
+<arg>Click Continue button</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.944107" elapsed="0.000067">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</kw>
+<kw name="Register and Verify Error">
+<msg time="2026-02-13T22:20:33.944303" level="FAIL">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</msg>
+<arg>Verify Successful registration</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.944258" elapsed="0.000064">Keyword 'Register and Verify Error' expected 5 arguments, got 1.</status>
+</kw>
+<kw name="Close All My Browser" owner="RegisterKeywordsRes" type="TEARDOWN">
+<kw name="Close All Browsers">
+<msg time="2026-02-13T22:20:33.945666" level="FAIL">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</msg>
+<status status="FAIL" start="2026-02-13T22:20:33.945637" elapsed="0.000066">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.944635" elapsed="0.001181">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.937813" elapsed="0.008054">Several failures occurred:
+
+1) Keyword 'Register and Verify Error' expected 5 arguments, got 3.
+
+2) Variable '${RAND_FNAME}' not found.
+
+3) Variable '${RAND_LNAME}' not found.
+
+4) Variable '${RAND_EMAIL}' not found.
+
+5) Variable '${RAND_PHONE}' not found.
+
+6) Variable '${RAND_FNAME}' not found.
+
+7) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+
+8) Keyword 'Register and Verify Error' expected 5 arguments, got 2.
+
+9) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+
+10) Keyword 'Register and Verify Error' expected 5 arguments, got 1.
+
+Also teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</test>
+<test id="s1-s1-t3" name="TC3 Empty Firstname Registration" line="54">
+<kw name="Register and Verify Error">
+<kw name="Open My Browser" owner="RegisterKeywordsRes">
+<kw name="Open Browser">
+<msg time="2026-02-13T22:20:33.947638" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</msg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.947611" elapsed="0.000061">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-02-13T22:20:33.947766" elapsed="0.000014"/>
+</kw>
+<kw name="Page Should Contain">
+<arg>Register Account</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.947841" elapsed="0.000012"/>
+</kw>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.946917" elapsed="0.001010">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Fill Registration Form" owner="RegisterKeywordsRes">
+<arg>${fname}</arg>
+<arg>${lname}</arg>
+<arg>${email}</arg>
+<arg>${phone}</arg>
+<arg>Test@1234</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.948068" elapsed="0.000029"/>
+</kw>
+<kw name="Click Policy Agree Checkbox" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.948414" elapsed="0.000040"/>
+</kw>
+<kw name="Click Continue button" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.948561" elapsed="0.000021"/>
+</kw>
+<kw name="Verify Error Message" owner="RegisterKeywordsRes">
+<arg>${expected_error}</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.948690" elapsed="0.000019"/>
+</kw>
+<kw name="Close All My Browser" owner="RegisterKeywordsRes" type="TEARDOWN">
+<kw name="Close All Browsers">
+<msg time="2026-02-13T22:20:33.950205" level="FAIL">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</msg>
+<status status="FAIL" start="2026-02-13T22:20:33.950163" elapsed="0.000103">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.948982" elapsed="0.001422">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<arg>${EMPTY}</arg>
+<arg>Doe</arg>
+<arg>test@mail.com</arg>
+<arg>12345678</arg>
+<arg>First Name must be between 1 and 32 characters!</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.946393" elapsed="0.004106">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.946102" elapsed="0.004577">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</test>
+<test id="s1-s1-t4" name="TC4 Empty Lastname Registration" line="55">
+<kw name="Register and Verify Error">
+<kw name="Open My Browser" owner="RegisterKeywordsRes">
+<kw name="Open Browser">
+<msg time="2026-02-13T22:20:33.954984" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</msg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.954920" elapsed="0.000142">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-02-13T22:20:33.955255" elapsed="0.000026"/>
+</kw>
+<kw name="Page Should Contain">
+<arg>Register Account</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.955397" elapsed="0.000023"/>
+</kw>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.953428" elapsed="0.002139">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Fill Registration Form" owner="RegisterKeywordsRes">
+<arg>${fname}</arg>
+<arg>${lname}</arg>
+<arg>${email}</arg>
+<arg>${phone}</arg>
+<arg>Test@1234</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.955804" elapsed="0.000033"/>
+</kw>
+<kw name="Click Policy Agree Checkbox" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.956208" elapsed="0.000034"/>
+</kw>
+<kw name="Click Continue button" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.956365" elapsed="0.000024"/>
+</kw>
+<kw name="Verify Error Message" owner="RegisterKeywordsRes">
+<arg>${expected_error}</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.956493" elapsed="0.000020"/>
+</kw>
+<kw name="Close All My Browser" owner="RegisterKeywordsRes" type="TEARDOWN">
+<kw name="Close All Browsers">
+<msg time="2026-02-13T22:20:33.957999" level="FAIL">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</msg>
+<status status="FAIL" start="2026-02-13T22:20:33.957958" elapsed="0.000087">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.956724" elapsed="0.001449">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<arg>Rahul</arg>
+<arg>${EMPTY}</arg>
+<arg>test@mail.com</arg>
+<arg>12345678</arg>
+<arg>Last Name must be between 1 and 32 characters!</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.951468" elapsed="0.006778">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.950928" elapsed="0.007508">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</test>
+<test id="s1-s1-t5" name="TC5 Invalid Email Registration" line="56">
+<kw name="Register and Verify Error">
+<kw name="Open My Browser" owner="RegisterKeywordsRes">
+<kw name="Open Browser">
+<msg time="2026-02-13T22:20:33.966136" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</msg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.966095" elapsed="0.000095">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-02-13T22:20:33.966321" elapsed="0.000018"/>
+</kw>
+<kw name="Page Should Contain">
+<arg>Register Account</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.966413" elapsed="0.000015"/>
+</kw>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.964659" elapsed="0.001861">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Fill Registration Form" owner="RegisterKeywordsRes">
+<arg>${fname}</arg>
+<arg>${lname}</arg>
+<arg>${email}</arg>
+<arg>${phone}</arg>
+<arg>Test@1234</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.966726" elapsed="0.000025"/>
+</kw>
+<kw name="Click Policy Agree Checkbox" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.966861" elapsed="0.000018"/>
+</kw>
+<kw name="Click Continue button" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.966960" elapsed="0.000017"/>
+</kw>
+<kw name="Verify Error Message" owner="RegisterKeywordsRes">
+<arg>${expected_error}</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.967061" elapsed="0.000016"/>
+</kw>
+<kw name="Close All My Browser" owner="RegisterKeywordsRes" type="TEARDOWN">
+<kw name="Close All Browsers">
+<msg time="2026-02-13T22:20:33.968391" level="FAIL">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</msg>
+<status status="FAIL" start="2026-02-13T22:20:33.968323" elapsed="0.000252">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.967241" elapsed="0.001674">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<arg>Rahul</arg>
+<arg>Doe</arg>
+<arg>invalid-email</arg>
+<arg>12345678</arg>
+<arg>E-Mail Address does not appear to be valid!</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.959111" elapsed="0.009905">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.958696" elapsed="0.010677">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</test>
+<test id="s1-s1-t6" name="TC 6Empty Telephone Registration" line="57">
+<kw name="Register and Verify Error">
+<kw name="Open My Browser" owner="RegisterKeywordsRes">
+<kw name="Open Browser">
+<msg time="2026-02-13T22:20:33.972656" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</msg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.972620" elapsed="0.000084">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-02-13T22:20:33.972826" elapsed="0.000018"/>
+</kw>
+<kw name="Page Should Contain">
+<arg>Register Account</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.972917" elapsed="0.000015"/>
+</kw>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.971580" elapsed="0.001438">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Fill Registration Form" owner="RegisterKeywordsRes">
+<arg>${fname}</arg>
+<arg>${lname}</arg>
+<arg>${email}</arg>
+<arg>${phone}</arg>
+<arg>Test@1234</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.973189" elapsed="0.000020"/>
+</kw>
+<kw name="Click Policy Agree Checkbox" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.973310" elapsed="0.000017"/>
+</kw>
+<kw name="Click Continue button" owner="RegisterKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.973406" elapsed="0.000016"/>
+</kw>
+<kw name="Verify Error Message" owner="RegisterKeywordsRes">
+<arg>${expected_error}</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.973518" elapsed="0.000016"/>
+</kw>
+<kw name="Close All My Browser" owner="RegisterKeywordsRes" type="TEARDOWN">
+<kw name="Close All Browsers">
+<msg time="2026-02-13T22:20:33.974750" level="FAIL">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</msg>
+<status status="FAIL" start="2026-02-13T22:20:33.974723" elapsed="0.000062">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.973690" elapsed="0.001213">No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<arg>Rahul</arg>
+<arg>Doe</arg>
+<arg>test@mail.com</arg>
+<arg>${EMPTY}</arg>
+<arg>Telephone must be between 3 and 32 characters!</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.970543" elapsed="0.004432">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.969910" elapsed="0.005438">No keyword with name 'Open Browser' found. Did you mean:
+    RegisterKeywordsRes.Open My Browser
+
+Also keyword teardown failed:
+No keyword with name 'Close All Browsers' found. Did you mean:
+    RegisterKeywordsRes.Close All My Browser</status>
+</test>
+<status status="FAIL" start="2026-02-13T22:20:33.899231" elapsed="0.076632"/>
+</suite>
+<status status="FAIL" start="2026-02-13T22:20:33.858327" elapsed="0.118108"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="6" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="6" skip="0">Suites</stat>
+<stat name="Register Page Test.Robot" id="s1-s1" pass="0" fail="6" skip="0">Suites.Register Page Test.Robot</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-13T22:20:33.903161" level="ERROR">Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Register_Page_Test.Robot.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2026-02-13T22:20:33.913320" level="ERROR">Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\RegisterKeywordsRes.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2026-02-13T22:20:33.915871" level="ERROR">Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\RegisterKeywordsRes.robot' on line 6: Importing library 'FakerLibrary' failed: ModuleNotFoundError: No module named 'FakerLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+</errors>
+</robot>

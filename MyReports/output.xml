@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-02-14T13:28:47.736318" rpa="false" schemaversion="5">
+<suite id="s1" name="Login test" source="C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Login_test.robot">
+<test id="s1-t1" name="Login test" line="17">
+<kw name="Open My Browser" owner="LoginKeywordsRes">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:28:47.993148" level="INFO">Opening browser 'chrome' to base url 'https://tutorialsninja.com/demo/index.php?route=account/login'.</msg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-14T13:28:47.992904" elapsed="11.131510"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-14T13:28:59.124872" elapsed="0.032293"/>
+</kw>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2026-02-14T13:28:47.991774" elapsed="11.165533"/>
+</kw>
+<kw name="Enter Username" owner="LoginKeywordsRes">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:28:59.158727" level="INFO">Typing text 'nanapatekar@gmail.com' into text field 'id:input-email'.</msg>
+<arg>${txt_loginUsername}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-14T13:28:59.158229" elapsed="0.175419"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2026-02-14T13:28:59.157869" elapsed="0.176014"/>
+</kw>
+<kw name="Enter Password" owner="LoginKeywordsRes">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:28:59.335874" level="INFO">Typing text 'nanapatekar' into text field 'id:input-password'.</msg>
+<arg>${txt_loginPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-14T13:28:59.335258" elapsed="0.105243"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2026-02-14T13:28:59.334514" elapsed="0.106092"/>
+</kw>
+<kw name="Click Login" owner="LoginKeywordsRes">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:28:59.441466" level="INFO">Clicking element 'xpath://input[@type='submit']'.</msg>
+<arg>${btn_Login}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-14T13:28:59.441222" elapsed="0.085834"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:28:59.440948" elapsed="0.086264"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-14T13:29:01.528984" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-14T13:28:59.527579" elapsed="2.001634"/>
+</kw>
+<kw name="Verify Successful Login" owner="LoginKeywordsRes">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:29:01.556664" level="INFO">Current page contains text 'Edit your account information'.</msg>
+<arg>Edit your account information</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-14T13:29:01.530672" elapsed="0.026148"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:29:01.530091" elapsed="0.026883"/>
+</kw>
+<kw name="Close My Browser" owner="LoginKeywordsRes">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-02-14T13:29:01.558086" elapsed="2.237894"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:29:01.557616" elapsed="2.238573"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:28:47.990361" elapsed="15.806618"/>
+</test>
+<test id="s1-t2" name="Login test with Try and Except block" line="27">
+<kw name="Open My Browser" owner="LoginKeywordsRes">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:29:03.800476" level="INFO">Opening browser 'chrome' to base url 'https://tutorialsninja.com/demo/index.php?route=account/login'.</msg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-14T13:29:03.800151" elapsed="10.377315"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-14T13:29:14.177864" elapsed="0.025987"/>
+</kw>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2026-02-14T13:29:03.799602" elapsed="10.404516"/>
+</kw>
+<try>
+<branch type="TRY">
+<kw name="Enter Username" owner="LoginKeywordsRes">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:29:14.205620" level="INFO">Typing text 'nanapatekar@gmail.com' into text field 'id:input-email'.</msg>
+<arg>${txt_loginUsername}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-14T13:29:14.205364" elapsed="0.170655"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2026-02-14T13:29:14.205058" elapsed="0.171082"/>
+</kw>
+<kw name="Enter Password" owner="LoginKeywordsRes">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:29:14.377088" level="INFO">Typing text 'nanapatekar' into text field 'id:input-password'.</msg>
+<arg>${txt_loginPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-14T13:29:14.376759" elapsed="0.081678"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2026-02-14T13:29:14.376355" elapsed="0.082186"/>
+</kw>
+<kw name="Click Login" owner="LoginKeywordsRes">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:29:14.459071" level="INFO">Clicking element 'xpath://input[@type='submit']'.</msg>
+<arg>${btn_Login}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-14T13:29:14.458902" elapsed="0.109189"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:29:14.458690" elapsed="0.109590"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-14T13:29:16.569590" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-14T13:29:14.568504" elapsed="2.001492"/>
+</kw>
+<kw name="Verify Successful Login" owner="LoginKeywordsRes">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-14T13:29:16.602762" level="INFO">Current page contains text 'Edit your account information'.</msg>
+<arg>Edit your account information</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-14T13:29:16.571158" elapsed="0.031788"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:29:16.570561" elapsed="0.032574"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:29:14.204821" elapsed="2.398402"/>
+</branch>
+<branch type="EXCEPT">
+<pattern>Element 'id=login-button' not found</pattern>
+<kw name="Log" owner="BuiltIn">
+<arg>The login button was missing from the page.</arg>
+<arg>level=ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-14T13:29:16.603734" elapsed="0.000072"/>
+</kw>
+<status status="NOT RUN" start="2026-02-14T13:29:16.603427" elapsed="0.000480"/>
+</branch>
+<branch type="EXCEPT" assign="${error_msg}">
+<pattern>*</pattern>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>An unexpected error occurred: ${error_msg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-02-14T13:29:16.604288" elapsed="0.000059"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>An unexpected error occurred: ${error_msg}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-14T13:29:16.604544" elapsed="0.000055"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>filename=login_failure.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2026-02-14T13:29:16.604886" elapsed="0.000060"/>
+</kw>
+<status status="NOT RUN" start="2026-02-14T13:29:16.604077" elapsed="0.000955"/>
+</branch>
+<branch type="FINALLY">
+<kw name="Close My Browser" owner="LoginKeywordsRes">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-02-14T13:29:16.606020" elapsed="2.206937"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:29:16.605457" elapsed="2.207731"/>
+</kw>
+<status status="PASS" start="2026-02-14T13:29:16.605172" elapsed="2.208099"/>
+</branch>
+<status status="PASS" start="2026-02-14T13:29:14.204705" elapsed="4.608658"/>
+</try>
+<tag>Smoke</tag>
+<status status="PASS" start="2026-02-14T13:29:03.798559" elapsed="15.015595"/>
+</test>
+<meta name="Executed by">AutomationPOM tester</meta>
+<status status="PASS" start="2026-02-14T13:28:47.738382" elapsed="31.078147"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat name="Login test" id="s1" pass="2" fail="0" skip="0">Login test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

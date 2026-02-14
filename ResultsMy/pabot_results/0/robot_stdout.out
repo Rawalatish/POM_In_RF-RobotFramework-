@@ -1,0 +1,16 @@
+==============================================================================
+Suites
+==============================================================================
+Suites.Login test
+==============================================================================
+Login test                                                            | FAIL |
+No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywordsRes.Open My Browser
+------------------------------------------------------------------------------
+Suites.Login test                                                     | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\ResultsMy\pabot_results\0\output.xml

@@ -1,0 +1,36 @@
+2026-02-13 22:20:33.900472 ==============================================================================
+2026-02-13 22:20:33.904400 Suites
+2026-02-13 22:20:33.904467 ==============================================================================
+2026-02-13 22:20:33.904506 Suites.Login test
+2026-02-13 22:20:33.904506 [ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Login_test.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+2026-02-13 22:20:33.916722 ==============================================================================
+2026-02-13 22:20:33.916722 Traceback (most recent call last):
+2026-02-13 22:20:33.916860 Login test                                                            | FAIL |
+2026-02-13 22:20:33.916860   None
+2026-02-13 22:20:33.922583 No keyword with name 'Open Browser' found. Did you mean:
+2026-02-13 22:20:33.922583 PYTHONPATH:
+2026-02-13 22:20:33.922669     LoginKeywordsRes.Open My Browser
+2026-02-13 22:20:33.922669   C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+2026-02-13 22:20:33.922750 ------------------------------------------------------------------------------
+2026-02-13 22:20:33.922750   C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+2026-02-13 22:20:33.922874 Suites.Login test                                                     | FAIL |
+2026-02-13 22:20:33.922874   C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+2026-02-13 22:20:33.923557 1 test, 0 passed, 1 failed
+2026-02-13 22:20:33.923557   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+2026-02-13 22:20:33.923623 ==============================================================================
+2026-02-13 22:20:33.923623   C:\Users\HP\AppData\Local\Programs\Python\Python313
+2026-02-13 22:20:33.923679 Suites                                                                | FAIL |
+2026-02-13 22:20:33.923679   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages
+2026-02-13 22:20:33.923968 1 test, 0 passed, 1 failed
+2026-02-13 22:20:33.923968 [ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\LoginKeywordsRes.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+2026-02-13 22:20:33.924028 ==============================================================================
+2026-02-13 22:20:33.924028 Traceback (most recent call last):
+2026-02-13 22:20:33.924067 Output:  C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\ResultsMy\pabot_results\0\output.xml
+2026-02-13 22:20:33.924067   None
+2026-02-13 22:20:33.924977 PYTHONPATH:
+2026-02-13 22:20:33.980058   C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+2026-02-13 22:20:33.984031   C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+2026-02-13 22:20:33.984079   C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+2026-02-13 22:20:33.984127   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+2026-02-13 22:20:33.984151   C:\Users\HP\AppData\Local\Programs\Python\Python313
+2026-02-13 22:20:33.984174   C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages

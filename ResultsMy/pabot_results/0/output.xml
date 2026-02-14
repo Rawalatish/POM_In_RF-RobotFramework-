@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-13T22:20:33.855589" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Login test" source="C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Login_test.robot">
+<test id="s1-s1-t1" name="Login test" line="14">
+<kw name="Open My Browser" owner="LoginKeywordsRes">
+<kw name="Open Browser">
+<msg time="2026-02-13T22:20:33.920063" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywordsRes.Open My Browser</msg>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.920005" elapsed="0.000140">No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2026-02-13T22:20:33.920830" elapsed="0.000032"/>
+</kw>
+<arg>${SITE_URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2026-02-13T22:20:33.917368" elapsed="0.003654">No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywordsRes.Open My Browser</status>
+</kw>
+<kw name="Enter Username" owner="LoginKeywordsRes">
+<arg>${username}</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.921236" elapsed="0.000031"/>
+</kw>
+<kw name="Enter Password" owner="LoginKeywordsRes">
+<arg>${password}</arg>
+<status status="NOT RUN" start="2026-02-13T22:20:33.921410" elapsed="0.000025"/>
+</kw>
+<kw name="Click Login" owner="LoginKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.921581" elapsed="0.000026"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-02-13T22:20:33.921742" elapsed="0.000033"/>
+</kw>
+<kw name="Verify Successful Login" owner="LoginKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.921903" elapsed="0.000028"/>
+</kw>
+<kw name="Close My Browser" owner="LoginKeywordsRes">
+<status status="NOT RUN" start="2026-02-13T22:20:33.922034" elapsed="0.000027"/>
+</kw>
+<status status="FAIL" start="2026-02-13T22:20:33.916495" elapsed="0.005730">No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywordsRes.Open My Browser</status>
+</test>
+<status status="FAIL" start="2026-02-13T22:20:33.904327" elapsed="0.018381"/>
+</suite>
+<status status="FAIL" start="2026-02-13T22:20:33.858768" elapsed="0.064547"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="Login test" id="s1-s1" pass="0" fail="1" skip="0">Suites.Login test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-13T22:20:33.907789" level="ERROR">Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Login_test.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2026-02-13T22:20:33.915397" level="ERROR">Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\LoginKeywordsRes.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+</errors>
+</robot>

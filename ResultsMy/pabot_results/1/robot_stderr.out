@@ -1,0 +1,30 @@
+[ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\TestCases\Register_Page_Test.Robot.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages
+[ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\RegisterKeywordsRes.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages
+[ ERROR ] Error in file 'C:\Users\HP\PycharmProjects\RobotFM\POM_In_RF\Resources\RegisterKeywordsRes.robot' on line 6: Importing library 'FakerLibrary' failed: ModuleNotFoundError: No module named 'FakerLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python313
+  C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages

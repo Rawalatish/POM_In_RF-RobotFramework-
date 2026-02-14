@@ -1,0 +1,6 @@
+datasources:bf8304342ac3860c6b722947a415c5c69b34a983
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:7fdd03e8e52e195bebc722337253ef15eacafaf8
+--test Login test.Login test
+--test Login test.Login test with Try and Except block

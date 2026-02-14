@@ -1,0 +1,16 @@
+--test Login test.Login test
+--variable CALLER_ID:907eda02659348f19caf9bd1415d6132
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:0
+--variable PABOTLASTLEVEL:Login test.Login test
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\0
+--consolecolors off
+--consolemarkers off
+TestCases/Login_test.robot
