@@ -1,5 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
+
 Variables    ../PageObjects/LoginPageLocators.py
 
 Library    ../Resources/CustomLibUtils/LoginHelper.py
@@ -37,3 +38,10 @@ Register New User
     ${email}=    Generate Random Email
     Input Text    ${txt_loginUsername}    ${email}
     # ... baki steps ...
+
+*** Keywords ***
+# ... aapke baaki keywords ...
+
+
+
+
