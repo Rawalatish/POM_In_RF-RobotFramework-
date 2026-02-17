@@ -35,7 +35,8 @@ Close My Browser
     Close All Browsers
 
 Register New User
-    ${email}=    Generate Random Email
+#    ${email}=    Generate Random Email
+    ${email}=    Random Email
     Input Text    ${txt_loginUsername}    ${email}
     # ... baki steps ...
 

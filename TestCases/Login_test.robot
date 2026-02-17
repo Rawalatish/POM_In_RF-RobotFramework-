@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Variables    ../PageObjects/LoginPageLocators.py
 Resource    ../Resources/LoginKeywordsRes.robot
+Library    DebugLibrary
 
 Metadata    Executed by    AutomationPOM tester
 
